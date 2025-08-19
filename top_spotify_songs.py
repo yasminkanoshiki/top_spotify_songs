@@ -5,8 +5,8 @@ from PIL import Image
 
 #Ler a base de dados
 
-df = pd.read_csv("C:\\Projetos\\dash-spotify-songs\\top_spotify_songs\\spotify_history.csv")
-logo = Image.open("C:\\Projetos\\dash-spotify-songs\\top_spotify_songs\\spotify-logo.png")
+df = pd.read_csv("https://github.com/yasminkanoshiki/top_spotify_songs/blob/main/spotify_history.csv")
+logo = Image.open("https://github.com/yasminkanoshiki/top_spotify_songs/blob/main/spotify-logo.png")
 st.image(logo, width=120)
 
 #Manipulação dos dados e limpeza do banco
